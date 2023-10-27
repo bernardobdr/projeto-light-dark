@@ -33,8 +33,10 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
+  padding: 0 24px;
   /*para alinhar ao centro o elemento de tipo diplay-block é com  o margin:autod*/
   /*para alinhar ao centro elemento de tipo display-inline é com o text-alien:center*/
   /*margin e paddin são sempre em sentido horário*/
